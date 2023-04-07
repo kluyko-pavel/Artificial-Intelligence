@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/styles/css/min-css/main.min.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+    ></script>
+    <script defer src="./src/scripts/index.js"></script>
+    <title>Artificial Intelligence</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="main-header">
+        <div class="main-header__bg"></div>
+        <div class="container">
+          <div class="main-header__inner">
+            <div class="main-logo">
+              <a href="#" class="main-logo__link"
+                ><img
+                  class="main-logo__image"
+                  src="./src/assets/images/main-logo.svg"
+                  alt="Artificial Intelligence logo" />
+                <img
+                  class="main-logo__image--little"
+                  src="./src/assets/icons/robot-icon.svg"
+                  alt="Artificial Intelligence logo"
+              /></a>
+            </div>
+            <nav class="main-navigation">
+              <ul class="main-navigation__links">
+                <li class="main-navigation__link">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="main-navigation__link">
+                  <a href="#about">About</a>
+                </li>
+                <li class="main-navigation__link">
+                  <a href="#services">Services</a>
+                </li>
+                <li class="main-navigation__link"><a href="#blog">Blog</a></li>
+                <li class="main-navigation__link">
+                  <a href="#main-footer">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="sign-in-btn" type="button">Sign In</button>
+            <button type="button" class="menu-burger">
+              <span class="menu-burger__line"></span>
+            </button>
+            <div class="main-header__menu-box">
+              <a class="main-header__menu-link" href="#home">Home</a>
+              <a class="main-header__menu-link" href="#about">About</a>
+              <a class="main-header__menu-link" href="#services">Services</a>
+              <a class="main-header__menu-link" href="#blog">Blog</a>
+              <a class="main-header__menu-link" href="#main-footer">Contact</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <section id="home" class="home">
+          <div class="home__bg"></div>
+          <div class="container home-container">
+            <div class="home__content">
+              <span class="home__content-subtitle">
+                Next genaretion platform
+              </span>
+              <h1 class="home__content-title">
+                Artificial intelligence & Syber security
+              </h1>
+              <p class="home__content-text">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </p>
+              <div class="home__content-btns">
+                <button class="home__content-get-started-btn" type="button">
+                  Get Started
+                </button>
+                <button
+                  class="home__content-video-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  type="button"
+                >
+                  <img
+                    src="./src/assets/icons/play-video-icon.svg"
+                    alt="play icon"
+                  />
+                  <span>Watch Video</span>
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title fs-5" id="exampleModalLabel">
+                          Artificial intelligence & Syber security
+                        </h3>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="embed-container">
+                          <iframe
+                            src="https://www.youtube.com/embed/rH9-m7AhJhk"
+                            frameborder="0"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              class="home__image"
+              src="./src/assets/images/home-image.svg"
+              alt="technologies"
+            />
+            <div class="home__logos">
+              <img
+                class="home__logo"
+                src="./src/assets/images/home-logo1.svg"
+                alt="logo 1"
+              />
+              <img
+                class="home__logo"
+                src="./src/assets/images/home-logo2.svg"
+                alt="logo 2"
+              />
+              <img
+                class="home__logo"
+                src="./src/assets/images/home-logo3.svg"
+                alt="logo 3"
+              />
+              <img
+                class="home__logo"
+                src="./src/assets/images/home-logo4.svg"
+                alt="logo 4"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div class="container about-container">
+            <div class="about__content">
+              <h2 class="about__content-title">
+                Apply AI, Deep Learning and Data Sciece to solve
+              </h2>
+              <p class="about__content-text">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and publishing industries for previewing layouts and
+                visual mockups.
+              </p>
+              <button class="about__content-learn-more-btn" type="button">
+                Learn More
+              </button>
+            </div>
+            <img
+              class="about__image"
+              src="./src/assets/images/about-AI-image.svg"
+              alt="AI"
+            />
+          </div>
+        </section>
+
+        <section id="services" class="services">
+          <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-nexly-icon.svg"
+                  alt="Global Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Naxly as the Winners in Global Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-expert-perspective-icon.svg"
+                  alt="Expert Prespective Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Expert Prespective Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-business-prespective-icon.svg"
+                  alt=" Business Prespective Global Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Business Prespective Global Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/servisec-value-results-icon.svg"
+                  alt=" Value for Results in Global Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Value for Results in Global Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-global-experience-icon.svg"
+                  alt="Global Experience in Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Global Experience in Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/servisec-value-results-icon.svg"
+                  alt=" Value for Results in Global Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Value for Results in Global Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-expert-perspective-icon.svg"
+                  alt="Expert Prespective Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Expert Prespective Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="swiper-slide__bg"></div>
+                <img
+                  class="swiper-slide__image"
+                  src="./src/assets/icons/services-expert-perspective-icon.svg"
+                  alt="Expert Prespective Agency Awards"
+                />
+                <h3 class="swiper-slide__title">
+                  Expert Prespective Agency Awards
+                </h3>
+                <p class="swiper-slide__text">
+                  Lorem ipsum is placeholder text commonly used in print, and
+                  publishing industries for previewing layouts and visual
+                  mockups.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="blog" class="blog">
+          <div class="container blog-container">
+            <div class="blog__content">
+              <h2 class="blog__content-title">
+                What our clients say about our awesome solutions
+              </h2>
+              <div class="blog__content-text">
+                <p class="blog__content-text-part">
+                  To take a trivial example, which of us ever undertakes
+                  laborious physical exercise, except to obtain some advantage
+                  from it who do not know.
+                </p>
+                <p class="blog__content-text-part">
+                  Lorem ipsum is placeholder text commonly used in the graphic,
+                  print, and publishing .
+                </p>
+                <p class="blog__content-text-part">
+                  Lorem ipsum is placeholder previewing layouts and visual
+                  mockups.
+                </p>
+                <p class="blog__content-text-part">
+                  Lorem ipsum is placeholder text commonly used in the graphic,
+                  print, and publishing industries for previewing layouts and
+                  visual mockups.
+                </p>
+              </div>
+            </div>
+            <img
+              class="blog__image"
+              src="./src/assets/images/blog-image.svg"
+              alt="blog"
+            />
+          </div>
+        </section>
+      </div>
+
+      <footer id="main-footer" class="main-footer">
+        <div class="main-footer__bg"></div>
+        <div class="container main-footer-container">
+          <div class="main-footer__inner">
+            <address class="main-footer__contact-info">
+              <img
+                class="main-footer__contact-info-logo"
+                src="./src/assets/images/main-footer-ai-logo.svg"
+                alt="ai logo"
+              />
+              <p class="main-footer__contact-info-text">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and layouts and visual mockups.
+              </p>
+              <p class="main-footer__contact-info-contacts">
+                <a
+                  class="main-footer__contact-info-contacts-link"
+                  href="mailto:Company@gmail.com.com"
+                  ><img
+                    class="main-footer__contact-info-contacts-icon"
+                    src="./src/assets/icons/contact-mail-icon.svg"
+                    alt="mail"
+                  />
+                  Company@gmail.com.com</a
+                >
+                <a
+                  class="main-footer__contact-info-contacts-link"
+                  href="tel:+1(064)332-1233"
+                  ><img
+                    class="main-footer__contact-info-contacts-icon"
+                    src="./src/assets/icons/contact-phone-icon.svg"
+                    alt="phone"
+                  />
+                  Phone: (064)332-1233</a
+                >
+                <a
+                  class="main-footer__contact-info-contacts-link"
+                  href="https://www.google.com/maps/place/450+Wall+St,+New+York,+NY+10005,+%D0%A1%D0%A8%D0%90/@40.7037313,-74.0088023,16z/data=!4m5!3m4!1s0x89c25a16025e2d93:0x3ea37dfb0c8a8178!8m2!3d40.7045365!4d-74.0059806"
+                  ><img
+                    class="main-footer__contact-info-contacts-icon"
+                    src="./src/assets/icons/contact-adress-icon.svg"
+                    alt="map"
+                  />
+                  450 Wall Street, USA, New York</a
+                >
+              </p>
+            </address>
+            <div class="main-footer__info-col">
+              <h4 class="main-footer__info-col-title">INFORMATION</h4>
+              <div class="main-footer__info-col-links">
+                <a class="main-footer__info-col-link" href="#"
+                  >New Collection</a
+                >
+                <a class="main-footer__info-col-link" href="#">About Store</a>
+                <a class="main-footer__info-col-link" href="#">Contact Us</a>
+                <a class="main-footer__info-col-link" href="#">Latest News</a>
+                <a class="main-footer__info-col-link" href="#">Our Sitemap</a>
+                <a class="main-footer__info-col-link" href="#"
+                  >Orders History</a
+                >
+              </div>
+            </div>
+            <div class="main-footer__info-col">
+              <h4 class="main-footer__info-col-title">FOOTER MENU</h4>
+              <div class="main-footer__info-col-links">
+                <a class="main-footer__info-col-link" href="#"
+                  >Instagram profile</a
+                >
+                <a class="main-footer__info-col-link" href="#"
+                  >New Collection</a
+                >
+                <a class="main-footer__info-col-link" href="#">Contact Us</a>
+                <a class="main-footer__info-col-link" href="#">Latest News</a>
+                <a class="main-footer__info-col-link" href="#"
+                  >Terms & Conditions</a
+                >
+                <a class="main-footer__info-col-link" href="#"
+                  >Purchase Theme</a
+                >
+              </div>
+            </div>
+            <div class="main-footer__info-col">
+              <h4 class="main-footer__info-col-title">USEFUL LINKS</h4>
+              <div class="main-footer__info-col-links">
+                <a class="main-footer__info-col-link" href="#"
+                  >Instagram profile</a
+                >
+                <a class="main-footer__info-col-link" href="#"
+                  >New Collection</a
+                >
+                <a class="main-footer__info-col-link" href="#">Contact Us</a>
+                <a class="main-footer__info-col-link" href="#">Latest News</a>
+                <a class="main-footer__info-col-link" href="#"
+                  >Terms & Conditions</a
+                >
+                <a class="main-footer__info-col-link" href="#"
+                  >Purchase Theme</a
+                >
+              </div>
+            </div>
+            <div class="main-footer__about">
+              <h4 class="main-footer__about-title">ABOUT THE STORE</h4>
+              <p class="main-footer__about-text">
+                Lorem ipsum is placeholder text commonly used in the graphic,
+                print, and layouts and visual mockups.
+              </p>
+              <span class="main-footer__about-cite-link">www.company.com</span>
+              <div class="main-footer__about-social-media">
+                <a
+                  href="https://www.facebook.com/"
+                  class="main-footer__about-social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="main-footer__about-social-media-icon"
+                    src="./src/assets/icons/facebook-icon.svg"
+                    alt="facebook logo"
+                /></a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="main-footer__about-social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="main-footer__about-social-media-icon"
+                    src="./src/assets/icons/instagram-icon.svg"
+                    alt="instagram logo"
+                /></a>
+                <a
+                  href="https://www.twitter.com/"
+                  class="main-footer__about-social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="main-footer__about-social-media-icon"
+                    src="./src/assets/icons/twitter-icon.svg"
+                    alt="twitter logo"
+                /></a>
+                <a
+                  href="https://www.linkedin.com/"
+                  class="main-footer__about-social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="main-footer__about-social-media-icon"
+                    src="./src/assets/icons/linkedin-icon.svg"
+                    alt="linkedin logo"
+                /></a>
+                <a
+                  href="https://www.youtube.com/"
+                  class="main-footer__about-social-media-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    class="main-footer__about-social-media-icon"
+                    src="./src/assets/icons/youtube-icon.svg"
+                    alt="youtube-logo"
+                /></a>
+              </div>
+              <div class="main-footer__about-choose-lang">
+                <img
+                  class="main-footer__about-choose-lang-icon"
+                  src="./src/assets/icons/language-icon.svg"
+                  alt="language"
+                />
+                <span class="main-footer__about-choose-lang-lang">English</span>
+                <img
+                  class="main-footer__about-choose-icon"
+                  src="./src/assets/icons/choose-icon.svg"
+                  alt="choose"
+                />
+                <div class="dropdown-content">
+                  <button
+                    type="button"
+                    class="main-footer__about-choose-lang-btn"
+                  >
+                    Russian
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+%button {
+  @include font("Open Sans", 600, 20px, 27px, #ffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: $secondary-clr;
+  border: none;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.02);
+  }
+}

@@ -1,0 +1,28 @@
+.main-header {
+  padding: 22px 0;
+  position: relative;
+}
+.main-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__bg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #ffffff 260.24%);
+  opacity: 0.02;
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+}
+
+.main-navigation {
+  flex-basis: 411px;
+}
+.main-navigation__links {
+  display: flex;
+  justify-content: space-between;
+}
